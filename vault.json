@@ -1,0 +1,23 @@
+{
+  "salt": "seWafoNGML032t/Rmo+ZmA==",
+  "wrappedDEK": "r7dfETlg9NaYuiWuNNaSs2hy5NVS5hW+gW9DzfEgrmmSVJttUmji3alVlb+0WliYHGGjH87shXqZd8qH",
+  "entries": [
+    {
+      "service": "4lPsa0PKw+QKOe9KfM0LhI53uYVvu1TGMYN1Gt8L",
+      "username": "5U7UOiYBzNuXXeW4iasE0o0+omHiIpSrhzc81QS9",
+      "password": "W4pq+TeyVqKlSg/MmOoha1xfct75MGegLhPaKmhTcxBV5frb",
+      "notes": "kGe1begJ4ofabZA92e3AzwxB0uGqch6t2dmQBQ==",
+      "created_at": 1762358199,
+      "modified_at": 1762358199
+    },
+    {
+      "service": "/Yj5CBp/mL3U6GLjVlBL/HBwARttEDLBRYHeNaEkcg==",
+      "username": "GmU+zLd5UmcOwl/lZhEMKDtwYFxdyUfC19JonOv1CA==",
+      "password": "aAkXXUg3cDNizRNPe+blklbzWoKMJfD0o9xxDEEgIRMJnFjS",
+      "notes": "M5/bgoegf6wcIcfW+0/XrQnF8Y5x6BY23lCgyg==",
+      "created_at": 1762358210,
+      "modified_at": 1762358210
+    }
+  ],
+  "hmac": "EEV5RiePd1ppl8fdumhfDKvaPxCtrpPqCWmU5ZXWdIo="
+}
