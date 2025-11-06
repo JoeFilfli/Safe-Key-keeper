@@ -1,39 +1,43 @@
-# 🔐 CryptoVault 🔐
+# 🔐 **CryptoVault**
 
-A simple and reliable password manager built in **Go**.  
-It helps you safely store, organize, and retrieve your passwords in one encrypted vault — all offline.
+A lightweight and reliable **password manager built in Go**.  
+Keep all your passwords safe in one encrypted vault — completely **offline** and **under your control**.
 
-[![Go Version](https://img.shields.io/badge/Go-1.25.3-blue.svg)](https://golang.org)
+[![Go Version](https://img.shields.io/badge/Go-1.25.3-blue.svg)](https://golang.org)  
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ---
 
-## Our Features
+## ✨ Features
 
-- **Easy to Use GUI and CLI**
-- **Create and manage all your passwords**
-- **Password generator for cryptographically strong random passwords**
-- **Works fully offline (local)**
-- **Auto-lock after inactivity**
-- **Clipboard clears automatically**
-- **Cross-platform support (Windows, macOS, Linux, mobile (in the future maybe))**
+- 🖥️ **Simple GUI & CLI** — Use whichever fits your workflow  
+- 🔑 **Add, edit, and manage all your passwords easily**  
+- 🔒 **Built-in password generator** for strong, random passwords  
+- 🌐 **Works 100% offline** — no servers, no telemetry  
+- ⏱️ **Auto-locks after inactivity** for better safety  
+- 📋 **Clipboard clears automatically** after a short delay  
+- 💻 **Cross-platform** — works on Windows, macOS, and Linux  
+- 📱 *Mobile support planned for the future*
 
+---
 
-## First-Time Setup
+## 🚀 First-Time Setup
 
-1. Run the app  
-2. Set up your master password 
-3. Login to CryptoVault 
-4. Start adding/viewing/editing passwords for your favorite services  
-5. Enjoy the absolute security of your passwords (even we can't see em!)
+1. Launch the application  
+2. Set your **master password**  
+3. Log in to your new vault  
+4. Add, view, or edit your password entries  
+5. Relax — your data is fully encrypted and offline  
 
-⚠️ *Your master password is required to access the vault. Don’t forget it!*
-  *We reccomend that you store it out-of-band (i.e. on paper, on your phone...)*
+⚠️ **Important:** Your master password is the *only* way to access your vault.  
+Store it safely (for example, on paper or in a secure note).
 
+---
 
-## Example Screens
+## 🖼️ Example Screens
 
-### GUI View
+### **GUI Example**
+```
 ┌────────────────────────────────────────────────────────┐
 │  [Search: Type to filter entries...]                   │
 │  ┌─────┬──────┬────────┬──────────┬──────────┬────────┐│
@@ -49,10 +53,10 @@ It helps you safely store, organize, and retrieve your passwords in one encrypte
 │                                                        │
 │  ✅ Status: Vault unlocked. Auto-lock in 1 minute.     │
 └────────────────────────────────────────────────────────┘
-**We even left our CLI version (used mostly for testing and whatnot)**
+```
 
-### CLI View
-
+### **CLI Example**
+```
 ========================================
            MAIN MENU
 ========================================
@@ -65,42 +69,52 @@ It helps you safely store, organize, and retrieve your passwords in one encrypte
 7. Exit
 ========================================
 Choose an option: _
+```
 
-## Prerequisites
+---
+
+## ⚙️ Prerequisites
 
 **Requirements**
-- Go Version 1.17 or newer
-- Fyne Version 2 or newer
+- Go 1.17+  
+- Fyne v2+ (for GUI)  
 - Git
 
-**Steps**
+**Setup**
 ```bash
-git clone https://github.com/yourusername/Crypto-Project.git
-cd Crypto-Project
+git clone https://github.com/yourusername/CryptoVault.git
+cd CryptoVault
 
 go mod download
 go build -o password-manager ./cmd/gui
 go run ./cmd/gui
 ```
 
-## Project Structure
+---
+
+## 🧩 Project Structure
 ```
-Crypto-Project/
+CryptoVault/
 ├── cmd/
-│   ├── gui/           # GUI version
+│   ├── gui/           # GUI application (Fyne)
 │   └── cli/           # CLI version
 ├── internal/
 │   ├── crypto/        # Cryptography functions
-│   └── vault/         # Vault management
+│   └── vault/         # Vault management logic
 ├── go.mod
 ├── go.sum
 ├── README.md
-└── vault.json         # Created automatically once your Master Password is set
+└── vault.json         # Created automatically after setup
 ```
 
-##  Documentation
+---
 
-- [User Manual](USER_MANUAL.md) — How to use the app  
-- [Design Document](DESIGN_DOCUMENT.md) — System design overview  
+## 📚 Documentation
 
-**Made with LOVE in Go**
+- 📖 [User Manual](USER_MANUAL.md) — How to use CryptoVault  
+- 🧠 [Design Document](DESIGN_DOCUMENT.md) — Technical overview and design  
+
+---
+
+**Made with ❤️ in Go**  
+Simple. Secure. Offline.
